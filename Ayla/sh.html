@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Category Filter in JS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="fixed-top">
+                <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="./contact.php">Contact</a></li>
+                        <li><a href="./index.html">Category</a></li>
+                        <li><a href="./login.html">login</a></li>
+                        <li><a href="./register.html">signUp</a> </li>
+                        <li> <a href="#">user</a></li>
+                </ul>
+            </nav>
+        </header>
+       
+        <div class = "main-container">
+                <h2>Ayla's Paradise</h2>
+                <p>Aqaba's beautiful heritage</p>
+            <div class = "filter-container">
+                        <div class = "category-head">
+                            <ul>
+                                <button class = "category-title active" id = "all" onclick="all()">
+                                    <li>All</li>
+                                </button>
+                                <button class = "category-title" id = "Attraction Aqaba" onclick="Attraction()">
+                                    <li>Attraction Aqaba</li>
+                                </button>
+                                <button class = "category-title" id = "Food" onclick="Food()">
+                                    <li>Food</li>
+                                </button>
+                                <button class = "category-title" id = "Activities" onclick="Attraction()">
+                                    <li>Activities</li>
+                                    <!-- <span><i class = "fas fa-chart-area"></i></span> -->
+                                </button>
+                            </ul>
+                        </div>
+
+                <div class = "posts-collect">
+                    <div class = "posts-main-container">
+                            <!-- single post -->
+                        <div class = " Attraction Aqaba" id="Attraction">
+                            <div class = "post-img">
+                                <img src = "Attraction Aqaba/1.jpg" alt = "post">
+                                <span class = "category-name">Attraction Aqaba </span>
+                            </div>
+                            <div class = "post-content">
+                                <div class = "post-content-top">
+                                </div>
+                                <h2>Fourth Century Roman Church</h2>
+                                <p>During the Byzantine period, a great deal of construction took place throughout Jordan. All of the major cities of the Roman era continued to flourish as the regional population grew. As Christianity expanded across this region in the fourth century, churches began to sprout up across Jordan.
+
+                                From this growing Christian scene came one of the most exciting discoveries in recent times, where archaeologists in Aqaba have unearthed what they believe to be the world’s oldest church, from the late 3rd Century AD. It is slightly older than the Church of the Holy Sepulcher in Jerusalem and the Church of Nativity in Bethlehem, both of which date back to the 4th Century. </p>
+                            </div>
+                        </div>
+
+                        <!-- end of single post -->
+                        <!-- single post -->
+                        <div class = "all Food" id="Food">
+                            <div class = "post-img">
+                                <img src = "Attraction Aqaba/hooh0.jpg" alt = "post">
+                                <span class = "category-name"> Food</span>
+                            </div>
+
+                            <div class = "post-content">
+                                <div class = "post-content-top">
+                                </div>
+                                <h2> Houh</h2>
+                                <p>To prepare the houh dough ;Mix flour, water and salt with a wooden spoon.</p>
+                            </div>
+                            <!-- <button type = "button" class = "read-btn">Read All</button> -->
+                        </div>
+                        <!-- end of single post -->
+                        <!-- single post -->
+                        <div class = "all Activities" id="Activities">
+                            <div class = "post-img">
+                                <img src = "Attraction Aqaba/aact-covernew.jpg" alt = "post">
+                                <span class = "category-name">Activities</span>
+                            </div>
+
+                            <div class = "post-content">
+                                <div class = "post-content-top">
+                                </div>
+                                <h2>hunting</h2>
+                                <p>It is all about unwinding under the sun, being in the open sea, smelling that fresh ocean breeze to take your mind to another dimension. A fresh catch for lunch isn’t such a bad idea either.. </p>
+                            </div>
+                            <!-- <button type = "button" class = "read-btn">Read All</button> -->
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- JS file -->
+        <script src = "script.js"></script>
+    </body>
+</html>
